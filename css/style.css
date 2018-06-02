@@ -1,0 +1,78 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body { /* outside of app */
+  background-color: #ffffff;
+  margin: 10px;
+  font-family: sans-serif;
+  font-size: 16px;
+
+}
+
+.StatusBar {
+  position: fixed;
+}
+
+.container { /*under status bar */
+  margin: 0 auto;
+  width: 375px;
+  background-color: #ffffff;
+}
+
+.direction { /* bus routes */
+  border: 1px solid #a9a9a9;
+  width: 100%;
+}
+
+h1 {
+  background-color: #C4C4C4;
+  font-weight: 900;
+  padding-top: 5%;
+  padding-left: 2%;
+  padding-bottom: 5%;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+
+h2 {
+  background-color: #C4C4C4;
+  font-weight: 900;
+  padding-top: 5%;
+  padding-left: 3%;
+  padding-bottom: 4%;
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+
+h3 {
+  display: inline;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0px;
+  padding-right: 5%;
+}
+
+
+li {
+  padding-top: 1%;
+  padding-left: 30%;
+  font-size: 12px;
+  width: 100%;
+}
+
+ul {
+  display: inline;
+  text-align: left;
+  background-color: #ffffff;
+  margin: 75px;
+  width: 100%;
+}
+
+.routenumber {
+  display: inline-block;
+  padding-top: 5%;
+  padding-left: 5%;
+}
