@@ -22,8 +22,8 @@ body { /* outside of app */
 .container { /*under status bar */
   margin: 0 auto;
   width: 375px;
-  border: 1px solid #C4C4C4;
-  height: 667px
+  height: 667px;
+  border: 1px solid;
 }
 
 .title {
@@ -34,10 +34,10 @@ body { /* outside of app */
   width: 80px;
   font-size: 16px;
   display: inline-block;
+
 }
 
 h2 {
-  background-color: #C4C4C4;
   font-weight: 900;
   padding-top: 5%;
   padding-left: 3%;
@@ -60,11 +60,6 @@ ul {
   background-color: #ffffff;
   padding: 10px 0;
 
-}
-
-.listing {
-  padding-top: 5%;
-  width: 100%;
 }
 
 .bus-routes {
