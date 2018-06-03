@@ -19,11 +19,6 @@ body { /* outside of app */
   background-color: #ffffff;
 }
 
-.direction { /* dividers */
-  border: 1px solid #a9a9a9;
-  width: 100%;
-}
-
 h1 {
   background-color: #C4C4C4;
   font-weight: 900;
@@ -47,22 +42,36 @@ h2 {
 }
 
 li {
-  padding-top: 3%;
-  padding-left: 30%;
-  font-size: 12px;
-  width: 100%;
+  font-size: 16px;
+  width: 35%;
+  margin: 0 10px;
+  display: inline-block;
 }
 
 ul {
-  list-style-type: none;
-  display: inline;
   background-color: #ffffff;
-  margin-right: 10%;
-  width: 100%;
+  padding: 10px 0;
 }
 
 .listing {
-  display: inline-block;
-  padding-top: 10%;
+  padding-top: 5%;
   width: 100%;
+}
+
+.bus-routes {
+  margin-left: 2%;
+  margin-right: 5%;
+  width: 18%;
+  padding-left: 4%;
+}
+
+.bus-info {
+  vertical-align: text-bottom;
+  width: 70%;
+  margin: 0;
+  display: inline-block;
+}
+
+p.bus-info::first-line {
+  font-weight: 900;
 }
