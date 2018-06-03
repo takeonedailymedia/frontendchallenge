@@ -51,6 +51,7 @@ li {
 ul {
   background-color: #ffffff;
   padding: 10px 0;
+  border-bottom: 2px solid #C4C4C4;
 }
 
 .listing {
@@ -72,6 +73,6 @@ ul {
   display: inline-block;
 }
 
-p.bus-info::first-line {
+ul.bus-info::first-line {
   font-weight: 900;
 }
