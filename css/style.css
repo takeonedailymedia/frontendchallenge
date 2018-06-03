@@ -22,7 +22,6 @@ body { /* outside of app */
 .container { /*under status bar */
   margin: 0 auto;
   width: 375px;
-  background-color: #ffffff;
   border: 1px solid #C4C4C4;
   height: 667px
 }
@@ -83,6 +82,7 @@ ul {
 li.direction, li.frequency {
   font-weight: 900;
 }
+
 
 li.frequency {
   float: right;
