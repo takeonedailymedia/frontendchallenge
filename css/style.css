@@ -15,16 +15,12 @@ body { /* outside of app */
   width: 375px;
   height: 667px;
   background-color: #c4c4c4;
-}
-
-ul {
-padding-top: 10px;
+  overflow: scroll;
 }
 
 .StatusBar, {
   position: fixed;
 }
-
 
 .back-arrow {
   padding-top: 5%;
@@ -45,7 +41,7 @@ h1 {
 h2, h3 {
   font-weight: 900;
   padding-top: 5%;
-  padding-left: 2%;
+  padding-left: 4%;
   padding-bottom: 3%;
   width: 100%;
   font-size: 14px;
@@ -55,41 +51,51 @@ h2, h3 {
   width: 375px;
 }
 
-.listing {
+.bus-routes {
   border: 1px solid #c4c4c4;
   background-color: #ffffff;
-  overflow: scroll;
-}
-
-ul {
-  display: inline;
+  width: 375px;
+  display: inline-block;
 }
 
 li {
-  list-style-type: none;
   font-size: 14px;
   width: 30%;
-  margin: 2px 15px;
-  float: right;
 }
 
-.bus-routes {
-  width: 18%;
-  padding-top: 4%;
-  padding-left: 4%;
-  text-align: center;
 
+.preview {
+  height: 50px;
+  width: 50px;
+  padding-top: 4%;
+  padding-left: 12px;
+  border-radius: 50%;
+  float: center;
+  display: inline-block;
+}
+
+.yellow {
+  background-color: #F2C94C;
+}
+
+.orange {
+  background-color: #F2994A;
+}
+
+.red {
+  background-color: #EB5757;
 }
 
 .bus-info {
-  width: 40%;
-  margin: 0;
-  float: left;
+  width: 5%;
+  margin: 4%;
+  float: center;
+  display: inline-block;
 }
 
 .arrival.frequency {
-  width: 30%;
-  margin: 0;
+  width: 10%;
+  margin: 4%;
   float: right;
-
+  display: inline-block;
 }
